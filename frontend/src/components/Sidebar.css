@@ -1,0 +1,31 @@
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background: #1f2937;
+  padding: 20px;
+  position: fixed;
+  color: white;
+}
+
+.sidebar-title {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.side-link {
+  display: block;
+  padding: 12px;
+  color: #d1d5db;
+  margin-bottom: 10px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.side-link:hover {
+  background: #374151;
+}
+
+.active {
+  background:rgb(41, 42, 38);
+  color: white !important;
+}
